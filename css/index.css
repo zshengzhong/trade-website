@@ -1,0 +1,284 @@
+/*首页样式*/
+.main {
+	height: 456px;
+	width: 981px;
+	margin-left: 219px;
+	margin-top: 10px;
+}
+.focus {
+	position: relative;
+	overflow: hidden;
+	width: 721px;
+	margin-right: 9px;
+}
+.banner {
+	position: relative;
+	width: 1000%;
+}
+.banner li {
+	float: left;
+}
+.list{
+	position: absolute;
+	left: 70px;
+	bottom: 15px;
+	width: 100px;
+	height: 20px;
+}
+.list li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 0 3px;
+	cursor: pointer;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0,.7);
+}
+.list .currentli {
+	background-color: #fff;
+}
+.arrowl ,
+.arrowr {
+	display: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+	background-color: rgba(255 , 255, 255,.3);
+	z-index: 999;
+}
+.arrowl {
+	left: 0;
+	border-radius: 0 15px 15px 0;
+}
+.arrowr {
+	right: 0;
+	border-radius: 15px 0 0 15px ;
+}
+.newsflash {
+	width: 248px;
+	overflow: hidden;
+}
+.news {
+	height: 163px;
+	border: 1px solid #e4e4e4;
+}
+.news_hd h4 {
+	float: left;
+	color: #333;
+	font-size: 14px;
+}
+.news_hd a {
+	float: right;
+	font-family: 'icomoon';
+	color: #666;
+}
+.news_hd {
+	padding:11px 15px 7px 15px;
+	border-bottom: 1px dashed #e8e8e7;
+}
+.news_bd {
+	padding: 0 15px;
+}
+.news_bd li{
+	line-height: 24px;
+}
+.news_bd_tit {
+	color: #333;
+	font-weight: 900;
+}
+.lifeservice {
+	height: 208px;
+	overflow: hidden;
+	border: 1px solid #e4e4e4;
+	border-top: 0;
+}
+.lifeservice ul {
+	width: 252px;
+}
+.lifeservice p {
+	font-size: 12px;
+}
+.lifeservice li a{
+	float: left;
+	height: 57px;
+	width: 62px;
+	padding: 13px 0 0;
+	text-align: center;
+	border-bottom: 1px solid #e8e8e7;
+	border-right: 1px solid #e8e8e7;
+}
+.lifeservice_icon {
+	display: inline-block;
+	height: 24px;
+	width: 25px;
+	margin-bottom: 6px;
+	background: url(../img/icons.png) no-repeat;
+}
+.lifeservice_icon_phone {
+	background-position: -19px -16px;
+}
+.lifeservice_icon_plane {
+	background-position: -80px -18px;
+}
+.lifeservice_icon_ci {
+	background-position: -142px -18px;
+}
+.lifeservice_icon_game {
+	background-position: -206px -18px;
+}
+.lifeservice_icon_pa {
+	background-position: -18px -89px;
+}
+.lifeservice_icon_oil {
+	background-position: -80px -88px;
+}
+.lifeservice_icon_hotel {
+	background-position: -143px -88px;
+}
+.lifeservice_icon_tic {
+	background-position: -209px -88px;
+}
+.lifeservice_icon_save {
+	background-position: -17px -160px;
+}
+.lifeservice_icon_money {
+	background-position: -79px -159px;
+}
+.lifeservice_icon_card {
+	background-position: -143px -160px;
+}
+.lifeservice_icon_white {
+	background-position: -209px -160px;
+}
+.bargain {
+	margin-top: 5px;
+}
+.recommend {
+	height: 163px;
+	margin-top: 11px;
+}
+.recom_hd {
+	height: 163px;
+	width: 206px;
+	background-color: #5c5251;
+}
+.recom_hd img {
+	margin: 31px 0 0 75px;
+}
+.recom_hd h4 {
+	text-align: center;
+	margin-top: 5px;
+	font-size: 18px;
+	color: #fff;
+}
+.recom_bd {
+	width: 956px;
+	height: 143px;
+	padding: 10px 19px;
+	background-color: #ebebeb;
+}
+.recom_bd li {
+	float: left;
+	height: 143px;
+	width: 235px;
+	border-right: 1px solid #ddd;
+}
+.floor {
+	overflow: hidden;
+	margin-top: 30px;
+}
+.box_hd {
+	height: 22px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #c81623;
+}
+.box_hd h4{
+	display: inline-block;
+	font-size: 18px;
+	margin-top: -2px;
+	color: #cc353e;
+}
+.tab_list {
+	float: right;
+}
+.tab_list li{
+	float: left;
+}
+.tab_list li a {
+	font-size: 12px;
+	margin: 0 14px;
+}
+.tab-con {
+	width: 1250px;
+}
+.box_bd {
+	height: 360px;
+	margin-bottom: 20px;
+}
+.box_bd li {
+	float: left;
+	height: 360px;
+}
+.box_bd img {
+	transition: all 0.5s;
+}
+.tab-con li img:hover{
+	margin-left: 8px;
+}
+.w209 {
+	width: 209px;
+	background-color: #f9f9f9;
+}
+.w209 li {
+	float: left;
+	height: 32px;
+	width: 86px;
+	margin-left: 12px;
+	border-bottom: 1px solid #ededed;
+	text-align: center;
+	line-height: 32px;
+}
+.w219 {
+	width: 219px;
+}
+.w220 {
+	width: 220px;
+}
+.w329 {
+	width: 329px;
+}
+.tab-con-items {
+	border-bottom: 1px solid #ededed;
+}
+.tab-con-b {
+	border: 1px solid #ededed;
+}
+.w219 .tab-con-items {
+	border-right: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+}
+.fixtool {
+	position: fixed;
+	left: 50%;
+	margin-left: -680px;
+	top: 100px;
+	display: none;
+}
+.fixtool li{
+	width: 66px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.currentbytool {
+	background-color: #c81623;
+	color: #fff;
+}

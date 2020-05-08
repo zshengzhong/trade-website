@@ -1,0 +1,117 @@
+.re_header {
+	height: 82px;
+	border-bottom: 2px solid #b1191a;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.re_logo a{
+	display: inline-block;
+	height: 55px;
+	width: 171px;
+	font-size: 0;
+	background: url(../img/logo_03.png);
+}
+.re_hd {
+	padding: 12px;
+	background-color: #ececec;
+	border: 1px solid #ddd;
+}
+.re_hd .re_hd_l {
+	font-size: 18px;
+	color: #333;
+}
+.re_hd .re_hd_r {
+	font-size: 14px;
+	color: #333;
+}
+.re_hd .re_hd_r i{
+	color: #c81623;
+}
+.reg_form {
+	width: 550px;
+	margin: 60px auto;
+}
+.reg_form dl {
+	margin-bottom: 20px;
+}
+.reg_form dt {
+	float: left;
+	width: 80px;
+	text-align: right;
+	line-height: 34px;
+	font-size: 14px;
+	color: #4c4c4c;
+}
+.reg_form dd {
+	margin-left: 90px;
+}
+.reg_form dd span i {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+	background: url(../img/error.png); 
+}
+.reg_form dd span {
+	color: #df3033;
+}
+.reg_form input {
+	height: 34px;
+	width: 238px;
+	border: 1px solid #999;
+}
+.choose {
+	font-size: 12px;
+	color: #b2b2b2;
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+.red ,
+.green ,
+.orange {
+	display: inline-block;
+	width: 34px;
+	height: 14px;
+	text-align: center;
+	line-height: 14px;
+	color: #fff;
+}
+.red {
+	margin-left: 10px;
+	background-color: red;
+}
+.green {
+	background-color: green;
+}
+.orange {
+	 background-color: orange
+}
+.agree {
+	position: relative;
+	padding-left: 120px;
+}
+.agree input {
+	position: absolute;
+	left: 100px;
+	top: 2px;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #999;
+}
+.agree a {
+	color: #1ba1e6;
+}
+.login a {
+	display: block;
+	height: 34px;
+	width: 200px;
+	text-align: center;
+	line-height: 34px;
+	background-color: #c81623;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.mod_copyright {
+	border-top: 1px solid #dfdfdf;
+}

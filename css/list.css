@@ -1,0 +1,139 @@
+.sk {
+	position: absolute;
+	top: 15px;
+	left: 200px;
+	padding-left: 14px;
+	border-left: 1px solid #b1191a;
+}
+.sk_list {
+	height: 45px;
+}
+.sk_list li {
+	float: left;
+	margin: 12px 28px 0;
+	font-size: 16px;
+	font-weight: 700;
+}
+.sk_list li a {
+	color: #000;
+}
+.sk_con {
+	height: 45px;
+}
+.sk_con li {
+	float: left;
+}
+.sk_con a {
+	margin: 0 22px;
+	font-size: 14px;
+	line-height: 45px;
+	font-family: 'icomoon';
+}
+.sk_bd {
+	width: 1300px;
+	margin-top: 25px;
+}
+.sk_goods {
+	float: left;
+	height: 459px;
+	width: 288px;
+	margin-right: 13px;
+	border: 1px solid transparent;
+	overflow: hidden;
+}
+.sk_bd li:hover {
+	border: 1px solid #e12228;
+	border-bottom: 0;
+}
+.sk_bd .current {
+	border: 1px solid #e12228;
+}
+.sk_goods_tit {
+	height: 35px;
+	padding-left: 12px;
+}
+.sk_goods_tit h5 {
+	font-size: 14px;
+	color: #adadad;
+}
+.sk_goods_price {
+	padding-left: 12px;
+	margin-top: 17px;
+}
+.sk_goods_price em {
+	font-size: 14px;
+	color: #e60012;
+}
+.sk_goods_price i{
+	font-size: 22px;
+	color: #e60012;
+}
+.sk_goods_price del {
+	font-size: 14px;
+	color: #a4a4a4;
+}
+.sk_goods_progress {
+	padding-left: 12px;
+	font-size: 14px;
+}
+.sk_goods_progress .list {
+	display: inline-block;
+	vertical-align: middle;
+	width: 132px;
+	height: 12px;
+	border: 1px solid #ed282e;
+	border-radius: 6px;
+}
+.list_red {
+	height: 12px;
+	width: 87%;
+	border: 0;
+	background-color: #ed282e;
+	border-radius: 6px 0 0 6px;
+}
+.sk_goods_buy {
+	display: block;
+	width: 290px;
+	height: 50px;
+	margin-top: 14px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	background-color: #b1191a;
+}
+.page {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 350px;
+}
+.page_num a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+}
+.page_num .pn_prev,
+.page_num .pn_next {
+	width: 80px;
+	font-family: 'icomoon';
+}
+.page_skip {
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	font-size: 12px;
+}
+.page_skip input,
+.page_skip button {
+	height: 40px;
+	width: 50px;
+	text-align: center;
+	transition: all 0.3s;
+}
+.page_skip input:focus {
+	width: 80px;
+}
